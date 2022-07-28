@@ -1,0 +1,72 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: auto;
+    background: url(imgs/bg-main.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main_frm {
+    width: 45vh;
+    height: 55vh;
+    background-color: white;
+    border: 0.1vh solid black;
+    border-radius: 2vh;
+}
+
+.title_frm {
+    color: black;
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 4vh;
+}
+
+input[type="text"] {
+    width: 35vh;
+    height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5vh;
+    display: block;
+    text-align: center;
+    outline: none;
+    border-radius: 5vh;
+    border: 0.1vh solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.age_box {
+    margin-top: 1vh;
+    display: block;
+}
+
+.name_box {
+    margin-top: 1vh;
+    display: block;
+}
+
+.second_name_box {
+    margin-top: 1vh;
+    display: block;
+}
+
+.sumbit_btn {
+    width: 35vh;
+    height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18vh;
+    display: block;
+    border-radius: 5vh;
+    border: 1px solid black;
+    cursor: pointer;
+}
