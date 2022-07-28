@@ -2,7 +2,7 @@ const Form = document.getElementById("form");
 const sumbitbutton = document.getElementById("sumbit_btn");
 
 let xhr = new XMLHttpRequest();
-xhr.open("POST", "https://reqbin.com/echo/post/json");
+xhr.open("POST", "https://cssmodernform.netlify.app/post/json/");
 
 xhr.setRequestHeader("Accept", "application/json");
 xhr.setRequestHeader("Content-Type", "application/json");
